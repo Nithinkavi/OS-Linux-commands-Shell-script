@@ -1066,6 +1066,8 @@ done
 set +x
 ```
 ## OUTPUT
+<img width="510" height="307" alt="image" src="https://github.com/user-attachments/assets/8bbf486e-b195-4cf8-9704-c83e1d9ad46b" />
+
  ./argshift.sh 1 2 3
  
  
@@ -1098,7 +1100,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="260" height="305" alt="image" src="https://github.com/user-attachments/assets/bde9b7b9-1fb0-4138-9559-dbc79e79c325" />
+
 cat > palindrome.sh
 ```bash
 #num=545
