@@ -317,11 +317,13 @@ seq 10
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="387" height="117" alt="image" src="https://github.com/user-attachments/assets/409c7dc5-b6b2-47c2-a28b-d16c8fac1f0e" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="503" height="81" alt="image" src="https://github.com/user-attachments/assets/0d27e368-2819-425f-a875-bea42c196d6b" />
 
 
 seq 3 | sed '2a hello'
