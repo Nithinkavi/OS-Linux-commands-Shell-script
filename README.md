@@ -305,10 +305,12 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+<img width="532" height="161" alt="image" src="https://github.com/user-attachments/assets/d8aedb0e-f342-4670-8245-a118775387d8" />
 
 
 seq 10 
 ## OUTPUT
+<img width="458" height="307" alt="image" src="https://github.com/user-attachments/assets/503c2885-6a94-41bd-b811-f3526209e09a" />
 
 
 
