@@ -204,16 +204,18 @@ egrep '(^hello)' newfile
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="520" height="303" alt="image" src="https://github.com/user-attachments/assets/9a1b6ce3-6e41-425b-b380-2a0071df428d" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="520" height="303" alt="image" src="https://github.com/user-attachments/assets/9a1b6ce3-6e41-425b-b380-2a0071df428d" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+<img width="520" height="303" alt="image" src="https://github.com/user-attachments/assets/9a1b6ce3-6e41-425b-b380-2a0071df428d" />
 
 
 egrep '[1-9]' newfile 
