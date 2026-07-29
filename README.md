@@ -328,11 +328,13 @@ seq 10 | sed -n '2,~4p'
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="503" height="81" alt="image" src="https://github.com/user-attachments/assets/0d27e368-2819-425f-a875-bea42c196d6b" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="458" height="307" alt="image" src="https://github.com/user-attachments/assets/503c2885-6a94-41bd-b811-f3526209e09a" />
 
 
 seq 10 | sed '2,9c hello'
@@ -342,7 +344,7 @@ seq 10 | sed '2,9c hello'
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
+<img width="669" height="236" alt="image" src="https://github.com/user-attachments/assets/7bfcba28-d14a-44da-bc64-194e7da880a6" />
 
 sed -n '2,4{s/$/*/;p}' file23
 
@@ -358,7 +360,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+<img width="749" height="250" alt="image" src="https://github.com/user-attachments/assets/81fce3fa-3145-4d02-8568-ba2bc3b1b08c" />
 
 cat > file22
 ```
@@ -637,7 +639,7 @@ echo “The values are different”
 fi
 ^d
 ```
-
+## OUTPUT
 
 cat iftest.sh 
 ```bash
@@ -659,7 +661,7 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
 
 # check if a file
 cat > ifnested.sh 
@@ -683,7 +685,7 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
-
+## OUTPUT
 cat ifnested.sh 
 ```bash
 \#!/bin/bash
@@ -708,7 +710,7 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
 
 # looking for a possible value using elif
 cat elifcheck.sh 
