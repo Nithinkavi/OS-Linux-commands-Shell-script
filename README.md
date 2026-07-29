@@ -431,6 +431,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="464" height="146" alt="image" src="https://github.com/user-attachments/assets/b6633ac2-f5fb-4da7-b328-1ef0d592cb81" />
 
 
 cat < scriptest.sh 
@@ -447,7 +448,9 @@ echo 'The $\# is ' $1#
 echo 'The $$ is ' $$
 ps
 ^d
- ```
+```
+## OUTPUT
+<img width="536" height="306" alt="image" src="https://github.com/user-attachments/assets/a0ffda81-f3aa-4dc3-8231-ad2e2b997eee" />
 
 cat scriptest.sh 
 ```bash
@@ -469,10 +472,12 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="588" height="128" alt="image" src="https://github.com/user-attachments/assets/a5dfe508-2a49-4db1-8351-d3fd7bc40e44" />
 
  
 ls file1
 ## OUTPUT
+<img width="588" height="128" alt="image" src="https://github.com/user-attachments/assets/a5dfe508-2a49-4db1-8351-d3fd7bc40e44" />
 
 echo $?
 ## OUTPUT 
