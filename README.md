@@ -94,11 +94,13 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="1600" height="231" alt="7" src="https://github.com/user-attachments/assets/610d5f00-70e0-4069-a459-020fc6ec8cb6" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="1600" height="172" alt="8" src="https://github.com/user-attachments/assets/6cc4b813-1a0b-47a1-ab3f-f8ec7bd2b794" />
 
 
 cat < newfile 
@@ -113,12 +115,14 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+<img width="1080" height="399" alt="9" src="https://github.com/user-attachments/assets/58599a5d-9556-4ff0-b95f-d2cee555e728" />
 
 
 
 grep hello newfile 
 ## OUTPUT
 
+<img width="1080" height="258" alt="10" src="https://github.com/user-attachments/assets/dfec0089-6936-4d2b-bbc4-c54196f7fd82" />
 
 
 
