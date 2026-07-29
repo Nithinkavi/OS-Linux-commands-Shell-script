@@ -479,17 +479,6 @@ ls file1
 ## OUTPUT
 <img width="588" height="128" alt="image" src="https://github.com/user-attachments/assets/a5dfe508-2a49-4db1-8351-d3fd7bc40e44" />
 
-echo $?
-## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
-abcd
- 
-echo $?
  ## OUTPUT
 
 
@@ -522,8 +511,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
+## OUTPUT
+<img width="342" height="124" alt="image" src="https://github.com/user-attachments/assets/8241bbfc-b2dc-4efe-8380-c7db18c8cd1b" />
 
 
 chmod 755 strcomp.sh
@@ -557,7 +546,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+<img width="342" height="124" alt="image" src="https://github.com/user-attachments/assets/8241bbfc-b2dc-4efe-8380-c7db18c8cd1b" />
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -672,6 +661,7 @@ fi
 ```
 ## OUTPUT
 cat ifnested.sh 
+<img width="588" height="128" alt="image" src="https://github.com/user-attachments/assets/a5dfe508-2a49-4db1-8351-d3fd7bc40e44" />
 ```bash
 \#!/bin/bash
 if [ -e $HOME ]
@@ -724,7 +714,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+<img width="588" height="128" alt="image" src="https://github.com/user-attachments/assets/a5dfe508-2a49-4db1-8351-d3fd7bc40e44" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -758,7 +748,9 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
- 
+ ## OUTPUT 
+ <img width="444" height="305" alt="image" src="https://github.com/user-attachments/assets/21fba4ab-f532-4a17-99cd-fbb76f7462fb" />
+
 $ ./casecheck.sh 
  
 cat > whiletest
@@ -789,7 +781,9 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ## OUTPUT 
+ <img width="444" height="305" alt="image" src="https://github.com/user-attachments/assets/fc5815ec-6fdb-4de3-9b6e-4f24a1f0945a" />
+
  
 cat forin1.sh 
 ```bash
@@ -815,7 +809,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ ## OUTPUT 
+ <img width="342" height="124" alt="image" src="https://github.com/user-attachments/assets/8241bbfc-b2dc-4efe-8380-c7db18c8cd1b" />
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -828,7 +823,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ## OUTPUT
+ <img width="580" height="305" alt="image" src="https://github.com/user-attachments/assets/a0b6876c-2a30-49d8-9951-0a7fc728f5b7" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -839,7 +836,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ## OUTPUT
+ <img width="342" height="124" alt="image" src="https://github.com/user-attachments/assets/8241bbfc-b2dc-4efe-8380-c7db18c8cd1b" />
 cat forin1.sh 
 ```bash
 #!/bin/bash
