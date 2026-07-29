@@ -373,6 +373,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="563" height="304" alt="image" src="https://github.com/user-attachments/assets/930c6044-2d94-4788-8d0a-68b6956b50c5" />
 
 
 
@@ -380,6 +381,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="563" height="304" alt="image" src="https://github.com/user-attachments/assets/0b5b8be0-0247-4211-9316-1a29342a4c93" />
 
 cat < urllist.txt
 ```
@@ -396,41 +398,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="563" height="304" alt="image" src="https://github.com/user-attachments/assets/92d6055f-6bdd-4437-b3c8-9ccdc95b1ecd" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="701" height="242" alt="image" src="https://github.com/user-attachments/assets/e1a9ebd6-6821-4839-a934-2251499df833" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
-## OUTPUT
-
-
-mkdir backupdir
- 
-mv backup.tar backupdir
-
-cd backupdir
- 
-tar -tvf backup.tar
-## OUTPUT
-
-
-tar -xvf backup.tar
-## OUTPUT
-
-gzip backup.tar
-
-ls .gz
-## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
-
- 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -439,6 +418,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="712" height="299" alt="image" src="https://github.com/user-attachments/assets/8e932b1b-8686-4a85-b213-e2511231410d" />
 
  
 cat << stop > herecheck.txt
