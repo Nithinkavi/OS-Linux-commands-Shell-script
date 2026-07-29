@@ -192,12 +192,14 @@ egrep -w '(H|h)ello' newfile
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="565" height="308" alt="image" src="https://github.com/user-attachments/assets/09dfd2c7-110a-4f3c-bc33-0841af4e21ad" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="565" height="308" alt="image" src="https://github.com/user-attachments/assets/82581119-75b9-4697-9b00-0164be01ab78" />
 
 
 egrep '(world$)' newfile 
