@@ -1054,7 +1054,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="510" height="306" alt="image" src="https://github.com/user-attachments/assets/14b01c62-e1ab-46ea-9dbd-3764d2b8f79a" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
