@@ -273,26 +273,31 @@ sed -n -e '$p' file23
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+<img width="374" height="304" alt="image" src="https://github.com/user-attachments/assets/9864c997-396b-44fd-a6e8-f8b780fed043" />
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="374" height="304" alt="image" src="https://github.com/user-attachments/assets/ee658d7e-f094-4a70-875d-4eb0bbefa0ea" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="374" height="304" alt="image" src="https://github.com/user-attachments/assets/65395907-e22f-41f1-ae8a-947708818398" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+<img width="467" height="305" alt="image" src="https://github.com/user-attachments/assets/a4497425-cf9c-4bf3-ac2d-a9203835b5a9" />
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+<img width="669" height="236" alt="image" src="https://github.com/user-attachments/assets/7bfcba28-d14a-44da-bc64-194e7da880a6" />
 
 
 
