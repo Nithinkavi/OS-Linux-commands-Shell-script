@@ -128,17 +128,21 @@ grep hello newfile
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="754" height="247" alt="image" src="https://github.com/user-attachments/assets/60f96d4d-ccea-474d-be27-1e645cc53167" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="747" height="248" alt="image" src="https://github.com/user-attachments/assets/342b5daa-9218-473c-ac25-046e65010613" />
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+
+<img width="755" height="242" alt="image" src="https://github.com/user-attachments/assets/e5271d11-bc1e-46ac-b61b-1ac0c8fa45cf" />
 
 
 
@@ -146,11 +150,13 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="1080" height="358" alt="WhatsApp Image 2026-07-29 at 8 24 41 AM" src="https://github.com/user-attachments/assets/88aa4c8c-767f-413f-9fe8-027572439ef4" />
 
 
 grep -w -n world newfile   
 ## OUTPUT
 
+<img width="1080" height="274" alt="1" src="https://github.com/user-attachments/assets/65190cb1-ad5e-4aec-adff-1d72b260f9ed" />
 
 cat < newfile 
 ```
