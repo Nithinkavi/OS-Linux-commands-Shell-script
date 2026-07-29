@@ -221,23 +221,28 @@ egrep '((W|w)orld$)' newfile
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="450" height="56" alt="image" src="https://github.com/user-attachments/assets/6ee25b77-672b-4bfb-aeb9-f65f7f3a62cf" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="474" height="51" alt="image" src="https://github.com/user-attachments/assets/cfcb4d66-db70-40bd-ae29-39b591c9d977" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="437" height="58" alt="image" src="https://github.com/user-attachments/assets/411f1600-a8f9-4d59-ade2-d16ba1b9cf1e" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="431" height="106" alt="image" src="https://github.com/user-attachments/assets/6eaa2ca2-f958-4c48-bf50-2641fe8a5f0d" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="455" height="112" alt="image" src="https://github.com/user-attachments/assets/68333a11-a59b-40a9-9f7f-4e193a237574" />
 
 
 cat > file23
@@ -257,11 +262,13 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="749" height="250" alt="image" src="https://github.com/user-attachments/assets/81fce3fa-3145-4d02-8568-ba2bc3b1b08c" />
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+<img width="735" height="244" alt="image" src="https://github.com/user-attachments/assets/875e39ee-af01-4953-94ea-6350402714f0" />
 
 
 sed  -e 's/Ram/Sita/' file23
